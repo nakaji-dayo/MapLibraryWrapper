@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MapLibraryWrapper"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Wrapper Swift library of Map libraries(e.g. MapKit, Google Maps)."
 
 # This description is used to generate tags and improve search results.

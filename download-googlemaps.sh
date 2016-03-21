@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo 'will download GoogleMaps.framework'
+echo 'start: download GoogleMaps.framework'
 pwd
 ls -la .
 
@@ -15,3 +15,5 @@ mv 6228ff6656915b62-GoogleMaps-1.12.3/Frameworks/GoogleMaps.framework
 
 ls -la .
 ls -la ./Dependencies
+
+echo 'finish: download GoogleMaps.framework'
