@@ -32,4 +32,5 @@ Carthage
 #
 Pods/
 
+Dependencies
 Example/GoogleMaps.framework
