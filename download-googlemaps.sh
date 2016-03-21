@@ -6,14 +6,19 @@ ls -la .
 
 wget https://www.gstatic.com/cpdc/6228ff6656915b62-GoogleMaps-1.12.3.tar.gz
 echo 'finish download'
-tar -xzvf 6228ff6656915b62-GoogleMaps-1.12.3.tar.gz
+
+ls -la .
+
+tar -xzf 6228ff6656915b62-GoogleMaps-1.12.3.tar.gz
 echo 'finish un tgz'
 
 ls -la .
+
 mkdir ./Dependencies
 ls -la .
-mv 6228ff6656915b62-GoogleMaps-1.12.3/Frameworks/GoogleMaps.framework
-./Dependencies/
+echo 'finish mkdir'
+
+mv 6228ff6656915b62-GoogleMaps-1.12.3/Frameworks/GoogleMaps.framework ./Dependencies/
 
 ls -la .
 ls -la ./Dependencies
