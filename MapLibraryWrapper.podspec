@@ -46,4 +46,6 @@ it supports following libraries.
   # s.dependency 'GoogleMaps'
   s.libraries = "c++", "icucore", "z"
   s.vendored_frameworks = 'Dependencies/GoogleMaps.framework'
+
+  s.prepare_command = 'sh download-googlemaps.sh'
 end
