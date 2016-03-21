@@ -47,10 +47,5 @@ it supports following libraries.
   s.libraries = "c++", "icucore", "z"
   s.vendored_frameworks = 'Dependencies/GoogleMaps.framework'
 
-  def s.pre_install (pod, target_definition)
-    Dir.chdir(pod.root) do
-      print 'in pre_install'
-      `./download-googlemaps.sh`
-    end
-  end
+  s.prepare_command = './download-googlemaps.sh'
 end
