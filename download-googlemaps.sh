@@ -14,11 +14,12 @@ echo 'finish un tgz'
 
 ls -la .
 
+echo 'try mkdir'
 mkdir ./Dependencies
 ls -la .
 echo 'finish mkdir'
 
-mv 6228ff6656915b62-GoogleMaps-1.12.3/Frameworks/GoogleMaps.framework ./Dependencies/
+mv ./Frameworks/GoogleMaps.framework ./Dependencies/
 
 ls -la .
 ls -la ./Dependencies
