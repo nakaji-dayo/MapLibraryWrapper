@@ -1,0 +1,20 @@
+PODS:
+  - MapLibraryWrapper (0.1.0)
+  - Nimble (3.0.0)
+  - Quick (0.8.0)
+
+DEPENDENCIES:
+  - MapLibraryWrapper (from `../`)
+  - Nimble (= 3.0.0)
+  - Quick (~> 0.8.0)
+
+EXTERNAL SOURCES:
+  MapLibraryWrapper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MapLibraryWrapper: 5fb788c00591ba0879594f89b4125a28e9b81636
+  Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
+  Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
+
+COCOAPODS: 0.39.0

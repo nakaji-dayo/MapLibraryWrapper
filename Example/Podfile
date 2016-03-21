@@ -3,6 +3,7 @@ use_frameworks!
 
 target 'MapLibraryWrapper_Example', :exclusive => true do
   pod 'MapLibraryWrapper', :path => '../'
+  pod 'GoogleMaps'
 end
 
 target 'MapLibraryWrapper_Tests', :exclusive => true do
