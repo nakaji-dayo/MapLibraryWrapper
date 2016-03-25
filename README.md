@@ -1,3 +1,6 @@
+**I'm sorry, now, there is problem with library configure. it is not able to use in easy.**  
+(ref: http://stackoverflow.com/questions/36154217/building-cocoapod-library-with-googlemaps-sdk)
+
 # MapLibraryWrapper
 
 [![CI Status](http://img.shields.io/travis/nakaji-dayo/MapLibraryWrapper.svg?style=flat)](https://travis-ci.org/nakaji-dayo/MapLibraryWrapper)
